@@ -14,11 +14,49 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
-      <a href="" class="btn btn-primary">Click me</a>
+      <img
+        src="https://www.weather.shecodes.io/images/logo.png"
+        alt="SheCodes logo"
+        class="shecodes-logo"
+      />
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a city..."
+          autofocus="on"
+          class="search-bar"
+        />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Bangor</h1>
+            <div>Sunday 16:50</div>
+            <div>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Cloudy emoji"
+              /><span class="current-temp">18°</span> C | F
+            </div>
+            <div>Mostly Cloudy</div>
+          </div>
+
+          <div class="col">
+            <ul>
+              <li>Humidity: 69%</li>
+              <li>Wind: 11 mph</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a href="https://github.com/iTinkx3/shecodes-weather-app"
+          >Open-source code</a
+        >, by Sam Collins
+      </small>
     </div>
-    <script src="src/app.js">
-      Click me
-    </script>
+    <script src="src/app.js"></script>
   </body>
 </html>
