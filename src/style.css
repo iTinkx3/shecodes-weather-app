@@ -2,12 +2,25 @@ ul {
     list-style: none;
 }
 
+.container {
+    max-width: 500px;
+}
+
+.weather-app {
+    max-width: 500px;
+    margin: 20px 30px;
+    padding: 40px;
+    border: 1px solid #dadde1;
+    border-radius: 16px;
+}
+
 .shecodes-logo {
     max-width: 200px;
     padding: 20px;
 }
 
 .search-button {
+    text-align: center;
     background: #885df1;
         border: none;
         border-radius: 4px;
