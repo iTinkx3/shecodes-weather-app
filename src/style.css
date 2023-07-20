@@ -1,3 +1,5 @@
+
+
 ul {
     list-style: none;
 }
@@ -7,8 +9,8 @@ ul {
 }
 
 .weather-app {
-    max-width: 500px;
-    margin: 20px 30px;
+    max-width: 800px;
+    margin: 30px auto;
     padding: 40px;
     border: 1px solid #dadde1;
     border-radius: 16px;
@@ -58,7 +60,7 @@ ul {
     color: #A9A6B3;
 }
 
-.current-temp {
+#current-temp {
     font-size: 35px;
 }
 
