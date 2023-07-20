@@ -15,7 +15,6 @@ function formatDate(timestamp) {
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function displayTemperature(response) {
-    console.log(response.data);
     let temperatureElement = document.querySelector("#current-temp");
     let cityElement = document.querySelector("#city");
     let descriptionElement = document.querySelector("#description");
