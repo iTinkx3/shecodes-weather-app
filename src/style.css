@@ -4,7 +4,9 @@ h1 {
 
 ul {
   list-style: none;
+  color: gray;
 }
+
 
 .container {
   max-width: 500px;
@@ -19,6 +21,7 @@ ul {
   padding: 40px;
   border: 1px solid #dadde1;
   border-radius: 16px;
+  
 }
 
 .shecodes-logo {
@@ -43,10 +46,13 @@ ul {
 #city {
   font-size: 30px;
   font-weight: bold;
+  color: #885df1;
+  margin-bottom: 0;
 }
 
 .lastUpdated {
   font-size: 13px;
+  color: grey;
 }
 
 .current-dateTime {
@@ -64,4 +70,5 @@ ul {
 .current-city-details {
   display: inline;
 }
+
 
