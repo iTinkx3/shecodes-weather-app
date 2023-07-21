@@ -15,6 +15,7 @@ function formatDate(timestamp) {
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function displayTemperature(response) {
+    console.log(response.data.ma)
     let temperatureElement = document.querySelector("#current-temp");
     let cityElement = document.querySelector("#city");
     let descriptionElement = document.querySelector("#description");
@@ -28,12 +29,8 @@ function displayTemperature(response) {
     windElement.innerHTML = Math.round(response.data.wind.speed);
     dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
-
-
-
 let apiKey = "d0d69cd1107bdb285d6980ec9a9c4f97";
 let city = "New York";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
 
 axios.get(apiUrl).then(displayTemperature);

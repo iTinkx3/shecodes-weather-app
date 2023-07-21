@@ -1,75 +1,77 @@
 h1 {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .container {
-    max-width: 500px;
+  max-width: 500px;
+}
+
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 30px auto;
 }
 
 .weather-app {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 40px;
-    border: 1px solid #dadde1;
-    border-radius: 16px;
+  padding: 40px;
+  border: 1px solid #dadde1;
+  border-radius: 16px;
 }
 
 .shecodes-logo {
-    max-width: 200px;
-    padding: 20px;
+  max-width: 200px;
+  padding: 20px;
 }
 
 .search-button {
-    text-align: center;
-    background: #885df1;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        height: 50px;
-        padding: 10px 50px;
+  background: #885df1;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  padding: 10px 60px;
 }
 
 .search-bar {
-        background: #f9f7fe;
-            border: none;
-            border-radius: 6px;
-            color: rgba(39, 33, 66, .4);
-            display: inline-block;
-            font-size: 16px;
-            height: 50px;
-            line-height: 20px;
-            padding: 15px 20px;
-            box-shadow: 0 30px 50px rgba(65, 50, 100, .08);
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 20px 100px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 #city {
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .lastUpdated {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .current-dateTime {
-    color: #A9A6B3;
+  color: #a9a6b3;
 }
 
 .current-weather {
-    color: #A9A6B3;
+  color: #a9a6b3;
 }
 
 #current-temp {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .current-city-details {
-    display: inline;
+  display: inline;
 }
+
