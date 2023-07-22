@@ -16,7 +16,11 @@ li {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 960px;
+  font-family: Cerebri-Sans,
+      Helvetica,
+      Arial,
+      sans-serif;
 }
 
 .weather-app-wrapper {
@@ -26,8 +30,9 @@ li {
 
 .weather-app {
   padding: 40px;
-  border: 1px solid #dadde1;
+  border: 1px solid #e6def9;
   border-radius: 16px;
+  box-shadow: 2px 4px 5px #e6def9;
 }
 
 .shecodes-logo {
@@ -61,6 +66,7 @@ li {
 #temperature {
   font-size: 60px;
   font-weight: 500;
+  color: #f65282;
 }
 
 .weather-temperature .active {
@@ -71,4 +77,8 @@ li {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+#humidity, #wind {
+  color: #f65282;
 }
