@@ -15,6 +15,11 @@ li {
   line-height: 19px;
 }
 
+#lastUpdated {
+  margin: 0;
+  padding: ;
+}
+
 .container {
   max-width: 960px;
   font-family: Cerebri-Sans,
