@@ -14,6 +14,13 @@ function formatDate(timestamp) {
 
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+function displayForecast() {
+    let forecastElement = document.querySelector("#forecast");
+    let forecastHTML = "";
+    forecastElement.innerHTML = forecastHTML;
+    
+}
+
 function displayTemperature(response) {
     //console.log(response.data.name);
     let temperatureElement = document.querySelector("#temperature");
@@ -34,6 +41,8 @@ function displayTemperature(response) {
     dateElement.innerHTML = formatDate(response.data.dt * 1000);
     iconElement.setAttribute ("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
     iconElement.setAttribute("alt", response.data.weather[0].description);
+
+    console.log(response.data);
 }
 
 function search(city) {
@@ -78,3 +87,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("New York");
+displayForecast();

@@ -15,11 +15,6 @@ li {
   line-height: 19px;
 }
 
-#lastUpdated {
-  margin: 0;
-  padding: ;
-}
-
 .container {
   max-width: 960px;
   font-family: Cerebri-Sans,
@@ -86,4 +81,23 @@ li {
 
 #humidity, #wind {
   color: #f65282;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
