@@ -53,6 +53,7 @@ li {
 
 #search-button {
   background: #885df1;
+  max-width: 50;
 }
 
 #city {
