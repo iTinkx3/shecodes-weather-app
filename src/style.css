@@ -15,8 +15,13 @@ li {
   line-height: 19px;
 }
 
+.lastUpdated-description {
+  padding-left: 0;
+}
+
 .container {
-  max-width: 960px;
+  max-width: 100%;
+  height: auto;
   font-family: Cerebri-Sans,
       Helvetica,
       Arial,
@@ -53,7 +58,6 @@ li {
 
 #search-button {
   background: #885df1;
-  max-width: 50;
 }
 
 #city {
